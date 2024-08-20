@@ -1,0 +1,24 @@
+.footer {
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+    .footerBlock {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        max-width: 260px;
+        .iconBlock {
+            display: flex;
+            gap: 15px;
+            img {
+                background: #FE753F;
+                padding: 9px 0px;
+                width: 30px;
+                height: 30px;
+                border-radius: 100%;
+            }
+        }
+    }
+}

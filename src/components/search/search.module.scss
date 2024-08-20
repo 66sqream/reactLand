@@ -1,0 +1,81 @@
+.search {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #433E89;
+    border-radius: 10px;
+    width: 100%;
+    height: 403px;
+    position: relative;
+    .left {
+        transform: rotate(90deg);
+        position: absolute;
+        left: -110px;
+        top: 60px;
+
+    }
+    .column {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        gap:70px;
+        .text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 730px;
+            .h2 {
+                text-align: center;
+                font-weight: 500;
+                font-size: 44px;
+                color: #FFFFFF;
+            }
+            .p {
+                text-align: center;
+                font-weight: 300;
+                color: #c6c5db;
+                max-width: 635px;
+            }
+        }
+        .inputBlock {
+            display: flex;
+            justify-content: space-between;
+            align-content:center;
+            flex-wrap: wrap;
+            flex-direction: row;
+            background: #FFFFFF;
+            border-radius: 10px;
+            max-width: 743px;
+            height: 70px;
+            width: 100%;
+            padding: 0px 7px 0px 30px;
+            .input {
+                max-width: 500px;
+                width: 100%;
+                &::placeholder {}
+            }
+            .btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #2E6EFF;
+                max-width: 162px;
+                width: 100%;
+                height: 56px;
+                border-radius: 10px;
+                color: #FFFFFF;
+            }
+        }
+    }
+    .right {
+        position: absolute;
+        bottom: -40px;
+        right: 20px;
+    }
+}

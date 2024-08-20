@@ -1,0 +1,23 @@
+.reviewBlock {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #FE753F1A;
+    border-radius: 10px;
+    padding: 30px;
+    gap: 30px;
+    max-width: 558px;
+    height: 260px;
+    .row {
+        display: flex;
+        .avaName {
+            display: flex;
+            align-items: center;
+            gap: 31px;
+            .name {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+            }
+        }
+    }
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

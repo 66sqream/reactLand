@@ -1,0 +1,12 @@
+.h2Img {
+    display: flex;
+    align-items: center;
+    .img {
+        position: relative;
+    }
+    .h2 {
+        font-size: 44px;
+        font-weight: 600;
+        background: url(../../img/icon/homePartners.svg) no-repeat ;
+    }
+}

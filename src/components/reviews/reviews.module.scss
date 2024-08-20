@@ -1,0 +1,22 @@
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 70px;
+    padding-top: 140px;
+    .title {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        .p {
+            color: #FE753F;
+            font-weight: 600;
+        }
+        .h2 {
+            font-size: 44px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.propertyBlock {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    max-width: 362px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(255, 243, 237);
+        border-radius: 5px;
+        padding: 12px 14px; 
+        width: 46px;
+    }
+    .h2 {
+        margin-top: 15px;
+        font-size: 22px; 
+    }
+    .p {
+        margin-top: 10px;
+        font-weight: 400;
+    }
+}

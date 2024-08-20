@@ -1,0 +1,12 @@
+.style-select {
+    &__control {
+        border: none !important;
+        width: 155px !important;
+        &--menu-is-open {
+            border-color: black !important;
+        }
+        .css-hlgwow {
+            padding: 0px !important;
+        }
+    }
+}
